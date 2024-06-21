@@ -1,6 +1,7 @@
 default_model:
   model: ollama/llama3
-  max_output_tokens: 50
+  api_base: https://raphaelfrancis.com/ollama
+  auth_token: SmartPinkElephant:719b6a1a20e5b0745406f7e937117688a60fecc11ccea93ad8f082beb4fd762989f404efd4ee1d041b8d96e2fceb0c3a1117c10f60206964b99b00bf
 flow:
   hello_world:
     action: prompt
